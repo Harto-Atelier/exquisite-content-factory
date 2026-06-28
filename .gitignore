@@ -11,3 +11,5 @@ assets/private/*
 data/daily_queue_*.json
 node_modules/
 dist/
+
+*.egg-info/
