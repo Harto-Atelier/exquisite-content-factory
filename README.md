@@ -33,6 +33,7 @@ python3 scripts/generate_daily_queue.py --date 2026-06-28 --count-story 15 --cou
 ## Repo map
 
 - `docs/WORLD_BIBLE.md` — characters, locations, visual rules, tone, language.
+- `docs/WEB_LORE.md` — English website lore for Lucía, Kamau, Noura, the pixel garden, Agents, wallet, and invitation.
 - `docs/CONTENT_SYSTEM.md` — daily system, formats, trend-jacking rules, production pipeline.
 - `docs/AUTOMATION_PLAN.md` — phased build plan and automation stack.
 - `docs/API_TOOLING_MAP.md` — APIs/tools for script, voice, image, video, render, scheduling, analytics.
