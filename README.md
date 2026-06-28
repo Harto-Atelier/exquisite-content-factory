@@ -1,6 +1,8 @@
-# Exquisite Content Factory
+# Exquisite World Lore + Content Factory
 
-A private content-generation system for Exquisite World: daily short-form story, brand, and utility videos around Lucía, Kamau, and Noura.
+A public canon and content-generation system for Exquisite World: the long-term story bible, character/world registries, website-readable lore data, and daily short-form story, brand, and utility video tooling around Lucía, Kamau, and Noura.
+
+This repo is intended to be the source of truth that the main website/app can read from, and that the public can browse as the living archive of Exquisite World.
 
 Goal: produce a structured daily batch of 30 short videos:
 
@@ -32,7 +34,22 @@ python3 scripts/generate_daily_queue.py --date 2026-06-28 --count-story 15 --cou
 
 ## Repo map
 
-- `docs/WORLD_BIBLE.md` — characters, locations, visual rules, tone, language.
+Canon / lore:
+
+- `lore/00-start-here/README.md` — how to use this as the public canon repo.
+- `lore/01-story-bible/STORY_BIBLE.md` — 10-year story bible and emotional architecture.
+- `lore/02-characters/` — character records for Lucía, Kamau, Noura, Agents, and Curators.
+- `lore/03-world/` — locations and rituals registry.
+- `lore/04-timeline/` — 10-year era structure.
+- `lore/05-episodes/` — episode formats and Season 1 structure.
+- `lore/06-style-guides/` — voice, tone, and visual language.
+- `lore/07-website-data/exquisite-world.json` — machine-readable lore for website/app import.
+- `lore/08-canon-registry/canon-log.md` — canonical change log.
+- `schemas/exquisite-world.schema.json` — JSON schema for website-readable data.
+
+Legacy/planning docs:
+
+- `docs/WORLD_BIBLE.md` — original characters, locations, visual rules, tone, language.
 - `docs/WEB_LORE.md` — English website lore for Lucía, Kamau, Noura, the pixel garden, Agents, wallet, and invitation.
 - `docs/CONTENT_SYSTEM.md` — daily system, formats, trend-jacking rules, production pipeline.
 - `docs/AUTOMATION_PLAN.md` — phased build plan and automation stack.

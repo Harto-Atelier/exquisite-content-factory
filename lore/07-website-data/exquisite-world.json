@@ -1,0 +1,72 @@
+{
+  "project": "Exquisite World",
+  "taglines": [
+    "Every human moment deserves a gallery.",
+    "Art begins in life.",
+    "Present your wallet. Let the city recognize you.",
+    "Pixels are seeds with corners.",
+    "A family garden is a gallery that grows back."
+  ],
+  "characters": [
+    {
+      "id": "lucia",
+      "name": "Lucía",
+      "role": "mother, intuitive collector, gardener of memory",
+      "loves": [
+        "flowers",
+        "gardens",
+        "matcha",
+        "art",
+        "quiet moments"
+      ]
+    },
+    {
+      "id": "kamau",
+      "name": "Kamau",
+      "role": "father, builder, playful map-maker",
+      "loves": [
+        "pixels",
+        "coffee",
+        "games",
+        "paths",
+        "quests"
+      ]
+    },
+    {
+      "id": "noura",
+      "name": "Noura",
+      "role": "their daughter, wonder engine",
+      "loves": [
+        "pixel flowers",
+        "secret doors",
+        "gardens",
+        "games",
+        "tiny artworks"
+      ]
+    }
+  ],
+  "locations": [
+    "Museum Plaza",
+    "Gallery District",
+    "Café of Critics",
+    "Pixel Garden",
+    "Flower Market",
+    "Claim Kiosk",
+    "Leaderboard Tower",
+    "Roulette Fountain",
+    "Wallet Gallery",
+    "Ordinals Archive",
+    "Burn Garden",
+    "Trading Desk"
+  ],
+  "rituals": {
+    "connect_wallet": "Present your wallet",
+    "claim": "Let the city recognize you",
+    "referral": "Invite someone into the room",
+    "daily_roulette": "Return daily; the city notices",
+    "leaderboard": "See where your gallery stands",
+    "trading": "Visit the Trading Desk",
+    "ordinals": "Enter the Ordinals Archive",
+    "burn": "Walk through the Burn Garden"
+  }
+}
