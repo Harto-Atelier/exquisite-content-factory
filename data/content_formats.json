@@ -1,0 +1,115 @@
+{
+  "story_formats": [
+    {
+      "id": "love_curated",
+      "series": "Love, Curated",
+      "duration": 24,
+      "structure": [
+        "romantic hook",
+        "Lucía feeling",
+        "Kamau response",
+        "Noura action",
+        "Curator note",
+        "soft CTA"
+      ]
+    },
+    {
+      "id": "noura_knows",
+      "series": "Noura Knows",
+      "duration": 18,
+      "structure": [
+        "Noura hook",
+        "wrong human assumption",
+        "Noura pecks/discovers",
+        "hidden art/utility reveal",
+        "one-line CTA"
+      ]
+    },
+    {
+      "id": "cafe_of_critics",
+      "series": "Café of Critics",
+      "duration": 22,
+      "structure": [
+        "drink ritual hook",
+        "café scene",
+        "tiny relationship detail",
+        "curator note",
+        "website/world ritual"
+      ]
+    },
+    {
+      "id": "player_and_critic",
+      "series": "The Player and the Critic",
+      "duration": 25,
+      "structure": [
+        "game/quest hook",
+        "Kamau action",
+        "Lucía reframes",
+        "Noura unlocks",
+        "CTA"
+      ]
+    },
+    {
+      "id": "agent_observation",
+      "series": "Agent Observations",
+      "duration": 16,
+      "structure": [
+        "Agent watches",
+        "human moment",
+        "curator note",
+        "mystery CTA"
+      ]
+    }
+  ],
+  "utility_formats": [
+    {
+      "id": "claim_kiosk",
+      "series": "Website Rituals",
+      "feature": "claim_center",
+      "duration": 25,
+      "cta": "Let the city recognize you."
+    },
+    {
+      "id": "wallet_gallery",
+      "series": "Wallets Are Galleries",
+      "feature": "connect_wallet",
+      "duration": 20,
+      "cta": "Present your wallet."
+    },
+    {
+      "id": "leaderboard_tower",
+      "series": "Website Rituals",
+      "feature": "leaderboard",
+      "duration": 22,
+      "cta": "See where your gallery stands."
+    },
+    {
+      "id": "roulette_fountain",
+      "series": "Website Rituals",
+      "feature": "daily_roulette",
+      "duration": 22,
+      "cta": "Return daily; the city notices."
+    },
+    {
+      "id": "invite_room",
+      "series": "Website Rituals",
+      "feature": "referrals",
+      "duration": 20,
+      "cta": "Invite someone into the room."
+    },
+    {
+      "id": "trading_desk",
+      "series": "Website Rituals",
+      "feature": "trac_bridge",
+      "duration": 28,
+      "cta": "Visit the Trading Desk."
+    },
+    {
+      "id": "ordinals_archive",
+      "series": "Website Rituals",
+      "feature": "ordinals_archive",
+      "duration": 28,
+      "cta": "Enter the Ordinals Archive."
+    }
+  ]
+}

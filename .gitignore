@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+renders/*
+!renders/.gitkeep
+assets/private/*
+data/daily_queue_*.json
+node_modules/
+dist/

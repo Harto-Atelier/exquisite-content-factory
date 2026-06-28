@@ -1,0 +1,2 @@
+[console_scripts]
+exq-content = exquisite_content_factory.cli:main

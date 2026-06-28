@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e .
+      - run: exq-content generate --date 2026-06-28 --count-story 2 --count-utility 2 --out /tmp/sample_queue.json
+      - run: python -m json.tool /tmp/sample_queue.json > /dev/null

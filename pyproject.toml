@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exquisite-content-factory"
+version = "0.1.0"
+description = "Content generation system for Exquisite World shorts"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+exq-content = "exquisite_content_factory.cli:main"
